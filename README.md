@@ -1,2 +1,42 @@
 # portals-188bet-resource
-HTML page archive and documentation
+
+## 项目简介
+
+本仓库用于归档和发布多个独立的 HTML 页面。这些页面以资源文件的形式存放，不绑定或指向任何具体的网站或域名。仓库主要作为静态 HTML 文件的集中存储与版本管理之用。
+
+## 目录说明
+
+```
+portals-188bet-resource/
+├── pages/          # 存放所有独立的 HTML 页面文件
+├── assets/         # 公共资源目录（如 CSS、JS、图片等）
+└── README.md       # 本文件
+```
+
+- `pages/` 目录下每个 HTML 文件均可独立运行，彼此无依赖关系。
+- `assets/` 目录用于存放页面可能共享的样式、脚本或媒体资源。
+
+## 页面归档说明
+
+- 所有页面均为静态 HTML，不涉及后端服务或数据库。
+- 页面内容仅作为存档示例，不构成任何形式的服务或引导。
+- 页面可能包含示例样式或交互逻辑，但不指向真实的外部链接。
+
+## 维护说明
+
+- 本仓库由维护者不定期更新，用于收录新的 HTML 示例或调整已有页面。
+- 欢迎提交 Issue 或 Pull Request 来建议新增内容或修正问题。
+- 请勿在仓库中放置任何违反 GitHub 服务条款的内容。
+
+## 使用方式
+
+1. 克隆本仓库到本地：
+   ```bash
+   git clone https://github.com/your-username/portals-188bet-resource.git
+   ```
+2. 直接在浏览器中打开 `pages/` 目录下的任一 HTML 文件即可查看效果。
+3. 也可通过 GitHub Pages 或其他静态托管服务部署整个仓库。
+
+## 许可
+
+本项目采用 [MIT 许可证](LICENSE)，您可以自由使用、复制、修改和分发仓库中的代码。
